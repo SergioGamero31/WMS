@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">LI</string>
+    <!--Login-->
+    <string name="img_desc">Logistics</string>
+    <string name="welcome_message">Welcome Back!</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_pass">Password</string>
+    <string name="btn_pass">Forgot your password?</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">Sign Up</string>
+
+    <!--SignUp-->
+    <string name="hint_name">Name</string>
+    <string name="sign_message">Here\'s your first step with us!</string>
+    <string name="hint_repeat">Repeat Password</string>
+
+    <!--Header-->
+    <string name="header_title">Welcome</string>
+
+    <!--Menu-->
+    <string name="title_locations">Locations</string>
+    <string name="menu_locate">Locate</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_sticker">Print Sticker</string>
+
+    <string name="title_picking">Picking Orders</string>
+    <string name="menu_customer_picking">Customer Picking</string>
+    <string name="menu_transfer_picking">Transfer Picking</string>
+    <string name="menu_other">Other Orders</string>
+
+    <string name="title_packing">Packing Orders</string>
+    <string name="menu_packing">Assemble Order</string>
+
+    <string name="title_dispatch">Dispatch</string>
+
+    <string name="log_out">Log Out</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/main_item"
+        android:title="@string/title_locations">
+        <menu>
+            <item
+                android:id="@+id/locate_item"
+                android:icon="@drawable/ic_inventory"
+                android:title="@string/menu_locate"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/map_item"
+                android:icon="@drawable/ic_map"
+                android:title="@string/menu_map"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/sticker_item"
+                android:icon="@drawable/ic_printer"
+                android:title="@string/menu_sticker"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/picking_item"
+        android:title="@string/title_picking">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/customer_item"
+                    android:icon="@drawable/ic_outbox"
+                    android:title="@string/menu_customer_picking" />
+                <item
+                    android:id="@+id/transfer_item"
+                    android:title="@string/menu_transfer_picking" />
+                <item
+                    android:id="@+id/other_item"
+                    android:title="@string/menu_other" />
+            </group>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/packing_item"
+        android:title="@string/title_packing">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/assemble_item"
+                    android:icon="@drawable/ic_move_inbox"
+                    android:title="@string/menu_packing" />
+            </group>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/dispatch_item"
+        android:title="@string/title_dispatch">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/presale_item"
+                    android:icon="@drawable/ic_shipping"
+                    android:title="@string/menu_packing" />
+                <item
+                    android:id="@+id/minimart_item"
+                    android:icon="@drawable/ic_shipping"
+                    android:title="@string/menu_packing" />
+            </group>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/logout_item"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/log_out">
+
+    </item>
+
+</menu>
