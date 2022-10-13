@@ -14,6 +14,7 @@
     <string name="sign_message">Here\'s your first step with us!</string>
     <string name="hint_repeat">Repeat Password</string>
 
+    <!--NavigationDrawer-->
     <!--Header-->
     <string name="header_title">Welcome</string>
 
@@ -26,12 +27,17 @@
     <string name="title_picking">Picking Orders</string>
     <string name="menu_customer_picking">Customer Picking</string>
     <string name="menu_transfer_picking">Transfer Picking</string>
-    <string name="menu_other">Other Orders</string>
+    <string name="menu_other">Picking Others</string>
 
     <string name="title_packing">Packing Orders</string>
     <string name="menu_packing">Assemble Order</string>
 
     <string name="title_dispatch">Dispatch</string>
+    <string name="menu_dispatch">Supermarket Dispatch</string>
+
+    <string name="title_inventory">Inventory</string>
+    <string name="menu_online">Online</string>
+    <string name="menu_product">By Product</string>
 
     <string name="log_out">Log Out</string>
 

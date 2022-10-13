@@ -9,7 +9,7 @@
         <menu>
             <item
                 android:id="@+id/locate_item"
-                android:icon="@drawable/ic_inventory"
+                android:icon="@drawable/ic_place_item"
                 android:title="@string/menu_locate"
                 android:checkable="true"/>
             <item
@@ -36,12 +36,12 @@
                     android:title="@string/menu_customer_picking" />
                 <item
                     android:id="@+id/transfer_item"
+                    android:icon="@drawable/ic_storefront"
                     android:title="@string/menu_transfer_picking" />
                 <item
                     android:id="@+id/other_item"
                     android:title="@string/menu_other" />
             </group>
-
         </menu>
     </item>
 
@@ -55,7 +55,6 @@
                     android:icon="@drawable/ic_move_inbox"
                     android:title="@string/menu_packing" />
             </group>
-
         </menu>
     </item>
 
@@ -67,13 +66,29 @@
                 <item
                     android:id="@+id/presale_item"
                     android:icon="@drawable/ic_shipping"
-                    android:title="@string/menu_packing" />
+                    android:title="@string/title_dispatch" />
                 <item
-                    android:id="@+id/minimart_item"
-                    android:icon="@drawable/ic_shipping"
-                    android:title="@string/menu_packing" />
+                    android:id="@+id/supermarket_item"
+                    android:icon="@drawable/ic_shipping_s"
+                    android:title="@string/menu_dispatch" />
             </group>
+        </menu>
+    </item>
 
+    <item
+        android:id="@+id/inventory_item"
+        android:title="@string/title_inventory">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/online_item"
+                    android:icon="@drawable/ic_inventory2"
+                    android:title="@string/menu_online" />
+                <item
+                    android:id="@+id/product_item"
+                    android:icon="@drawable/ic_chocolate"
+                    android:title="@string/menu_product" />
+            </group>
         </menu>
     </item>
 
@@ -81,7 +96,6 @@
         android:id="@+id/logout_item"
         android:icon="@drawable/ic_logout"
         android:title="@string/log_out">
-
     </item>
 
 </menu>
